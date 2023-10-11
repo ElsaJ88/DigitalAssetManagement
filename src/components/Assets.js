@@ -1,12 +1,11 @@
 import "../styles/assets.css";
-import { assets } from "../assets-database";
 
 import { useState } from "react";
 
 import { Modal } from "./Modal";
 import { Asset } from "./Asset";
 
-export const Assets = () => {
+export const Assets = ({ assets }) => {
   const [modal, setModal] = useState(false);
   const [selectedAsset, setSelectedAsset] = useState(0);
 

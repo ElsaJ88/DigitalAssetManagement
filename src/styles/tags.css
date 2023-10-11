@@ -1,0 +1,58 @@
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tags-container .tag-item {
+  display: none;
+  margin: 5px;
+  padding: 5px 7px;
+  background: #edf2f7;
+  border-radius: 8px;
+  box-shadow: #c8c8c8 0 5px 10px -5px;
+  box-sizing: border-box;
+  font-size: 0.8rem;
+  font-weight: 500;
+  outline: 0 solid transparent;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 0;
+  text-transform: capitalize;
+}
+.tags-container .tag-item:hover {
+  box-shadow: #676767 0 7px 12px -7px;
+}
+.tags-container .visible {
+  display: block;
+}
+.tags-container .selected {
+  background: #009743;
+  color: white;
+}
+
+.show-tags-button {
+  font-size: 0.8rem;
+  margin-top: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+.show-tags-button:hover {
+  transform: scale(102%);
+}
+.show-tags-button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .show-tags-button {
+    display: none;
+  }
+  .tags-container {
+    margin-top: 15px;
+  }
+  .tags-container .tag-item {
+    display: inline;
+  }
+}/*# sourceMappingURL=tags.css.map */

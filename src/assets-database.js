@@ -1,3 +1,10 @@
+export const tags = [
+  { id: 1, tag: "logo" },
+  { id: 2, tag: "social-media" },
+  { id: 3, tag: "banner" },
+  { id: 4, tag: "advertisement" },
+];
+
 export const assets = [
   {
     id: 1,
@@ -5,7 +12,7 @@ export const assets = [
     type: ["image"],
     tags: ["logo", "social-media"],
     image:
-      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/assets/logo1.png?token=GHSAT0AAAAAACIYBR2NF6S3PMWJRBXBI7SQZJGQ4LA",
+      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/logo1.png?token=GHSAT0AAAAAACIYBR2NKTTFHOCHKJMRRXG2ZJGSRBQ",
     details: ["2048x2048", "82.4kB"],
     usage: ["Social Media"],
   },
@@ -15,7 +22,7 @@ export const assets = [
     type: ["image"],
     tags: ["advertisement"],
     image:
-      "https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-6/380867866_711115357729096_720219296217110199_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=49d041&_nc_ohc=Oczjf4IclRQAX9zNLf7&_nc_ht=scontent-ams4-1.xx&oh=00_AfAHUMCFmxvZhPYUi3TksbCWdHkvybLv_FU8tPL528ipVw&oe=65204DD6",
+      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/ad2.jpg?token=GHSAT0AAAAAACIYBR2NIT2HRAUEFEMEA2XSZJGSR6Q",
     details: ["1080x1080", "385kB"],
     usage: ["Social Media"],
   },
@@ -50,5 +57,27 @@ export const assets = [
       "https://www.ci.oswego.or.us/sites/default/files/SUBWAY%20LOGO%20jpeg.png",
     details: ["2048x2048", "82.4kB"],
     usage: ["Website"],
+  },
+
+  {
+    id: 6,
+    name: "Wrap Battles",
+    type: ["image"],
+    tags: ["social-media", "advertisement"],
+    image:
+      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/ad3.jpg?token=GHSAT0AAAAAACIYBR2MTAXDFIA7G2X6ZVXWZJGSS4A",
+    details: ["1080x1080", "82.4kB"],
+    usage: ["Social-Media"],
+  },
+
+  {
+    id: 7,
+    name: "Taco Beef Date",
+    type: ["image"],
+    tags: ["social-media", "advertisement"],
+    image:
+      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/app-ad1.jpg?token=GHSAT0AAAAAACIYBR2NIWKOGJ7KOAY57A7QZJGSUZA",
+    details: ["1080x1080", "82.4kB"],
+    usage: ["Social-Media"],
   },
 ];
