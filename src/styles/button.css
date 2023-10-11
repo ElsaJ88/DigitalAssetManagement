@@ -1,0 +1,18 @@
+.buttons {
+  display: flex;
+}
+
+.button {
+  margin: 5px;
+  padding: 5px;
+  background: #edf2f7;
+  border-radius: 8px;
+  box-shadow: #676767 0 5px 10px -5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 500;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  width: fit-content;
+  border: 0;
+}

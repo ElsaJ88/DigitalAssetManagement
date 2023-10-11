@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+
+.html {
+  font-size: 16px;
+}
+
+.App {
+  text-align: center;
+}
+
+.app {
+  text-align: center;
+  background-color: #cbd5e0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* font-size: calc(10px + 2vmin); */
+}
+
+.header-text {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.subway-green {
+  color: #009743;
+}
+
+.subway-yellow {
+  color: #ffcb0a;
+}
+
+@media screen and (min-width: 600px) {
+  .app {
+    align-items: flex-start;
+  }
+
+  .header-text {
+    display: flex;
+  }
+
+  .app-header {
+    align-self: center;
+  }
+}
