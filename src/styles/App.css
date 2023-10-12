@@ -35,10 +35,29 @@ body {
   color: #ffcb0a;
 }
 
+.logo {
+  width: 200px;
+  text-align: center;
+}
+
+.rgn {
+  width: auto;
+  height: 40px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
 @media screen and (min-width: 600px) {
   .header-text {
     display: flex;
     align-content: center;
     justify-content: center;
+  }
+  .logo {
+    padding-right: 20px;
+  }
+  .rgn {
+    height: 70px;
   }
 }/*# sourceMappingURL=App.css.map */
