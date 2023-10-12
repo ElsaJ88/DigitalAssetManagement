@@ -1,0 +1,107 @@
+{
+  "asset-tags": [
+    { "id": 1, "tag": "logo" },
+    { "id": 2, "tag": "social-media" },
+    { "id": 3, "tag": "banner" },
+    { "id": 4, "tag": "advertisement" }
+  ],
+
+  "assets": [
+    {
+      "id": 1,
+      "name": "Logo",
+      "type": ["image"],
+      "tags": ["logo", "social-media"],
+      "image": "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/logo1.png?token=GHSAT0AAAAAACIYBR2NKTTFHOCHKJMRRXG2ZJGSRBQ",
+      "details": ["2048x2048", "82.4kB"],
+      "usage": ["Social Media"]
+    },
+    {
+      "id": 2,
+      "name": "App aanbieding Okober 2023",
+      "type": ["image"],
+      "tags": ["advertisement"],
+      "image": "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/ad2.jpg?token=GHSAT0AAAAAACIYBR2NIT2HRAUEFEMEA2XSZJGSR6Q",
+      "details": ["1080x1080", "385kB"],
+      "usage": ["Social Media"]
+    },
+    {
+      "id": 3,
+      "name": "Sub of the day",
+      "type": ["image"],
+      "tags": ["social-media", "advertisement"],
+      "image": "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/suboftheday.jpg",
+      "details": ["1080x1080", "73.8kB"],
+      "usage": ["Social Media"]
+    },
+
+    {
+      "id": 4,
+      "name": "Sandwich Banner",
+      "type": ["image"],
+      "tags": ["banner"],
+      "image": "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/banner1.png",
+      "details": ["2560x730", "2.78MB"],
+      "usage": ["Website"]
+    },
+
+    {
+      "id": 5,
+      "name": "Logo",
+      "type": ["image"],
+      "tags": ["logo"],
+      "image": "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/logo3.png",
+      "details": ["6784x1773", "386kB"],
+      "usage": ["Website"]
+    },
+
+    {
+      "id": 6,
+      "name": "Wrap Battles",
+      "type": ["image"],
+      "tags": ["social-media", "advertisement"],
+      "image": "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/ad3.jpg",
+      "details": ["1080x1080", "108kB"],
+      "usage": ["Social-Media"]
+    },
+
+    {
+      "id": 7,
+      "name": "Taco Beef Date",
+      "type": ["image"],
+      "tags": ["social-media", "advertisement"],
+      "image": "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/app-ad1.jpg",
+      "details": ["1080x1080", "244kB"],
+      "usage": ["Social-Media"]
+    },
+    {
+      "id": 8,
+      "name": "No Meat Banner",
+      "type": ["image"],
+      "tags": ["banner", "advertisement"],
+      "image": "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/download.png",
+      "details": ["2000x400", "1.22 MB"],
+      "usage": ["Website"]
+    },
+
+    {
+      "id": 9,
+      "name": "Footlong",
+      "type": ["image"],
+      "tags": ["banner"],
+      "image": "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/footlong.png",
+      "details": ["1067x643", "637kB"],
+      "usage": ["Website"]
+    },
+
+    {
+      "id": 10,
+      "name": "Logo",
+      "type": ["image"],
+      "tags": ["logo"],
+      "image": "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/logo2.png",
+      "details": ["5000x1437", "100kB"],
+      "usage": ["Website"]
+    }
+  ]
+}
