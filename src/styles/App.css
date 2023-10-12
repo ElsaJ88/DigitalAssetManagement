@@ -37,7 +37,6 @@ body {
 
 .logo {
   width: 200px;
-  text-align: center;
 }
 
 .rgn {
@@ -48,7 +47,7 @@ body {
   top: 0;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   .header-text {
     display: flex;
     align-content: center;
