@@ -28,12 +28,12 @@ export const assets = [
   },
   {
     id: 3,
-    name: "Sub on A Sub",
+    name: "Sub of the day",
     type: ["image"],
-    tags: ["social-media"],
+    tags: ["social-media", "advertisement"],
     image:
-      "https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-6/358130749_682701420570490_4550306784389163372_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=49d041&_nc_ohc=tfyMDN_4lNkAX-_1kNv&_nc_ht=scontent-ams4-1.xx&oh=00_AfDc7q8E8xWL79b7l2UOqj-E18YPsliA4kp1J3jnkHxHsA&oe=651FC812",
-    details: ["2048x2048", "82.4kB"],
+      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/suboftheday.jpg",
+    details: ["1080x1080", "73.8kB"],
     usage: ["Social Media"],
   },
 
@@ -43,8 +43,8 @@ export const assets = [
     type: ["image"],
     tags: ["banner"],
     image:
-      "https://dynl.mktgcdn.com/p/FO0qQRIw3Umv36Dq-9EfozkOloRy0N9TmVLBcJJMWLM/1900x542.jpg",
-    details: ["2048x2048", "82.4kB"],
+      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/banner1.png",
+    details: ["2560x730", "2.78MB"],
     usage: ["Website"],
   },
 
@@ -54,8 +54,8 @@ export const assets = [
     type: ["image"],
     tags: ["logo"],
     image:
-      "https://www.ci.oswego.or.us/sites/default/files/SUBWAY%20LOGO%20jpeg.png",
-    details: ["2048x2048", "82.4kB"],
+      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/logo3.png",
+    details: ["6784x1773", "386kB"],
     usage: ["Website"],
   },
 
@@ -65,8 +65,8 @@ export const assets = [
     type: ["image"],
     tags: ["social-media", "advertisement"],
     image:
-      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/ad3.jpg?token=GHSAT0AAAAAACIYBR2MTAXDFIA7G2X6ZVXWZJGSS4A",
-    details: ["1080x1080", "82.4kB"],
+      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/ad3.jpg",
+    details: ["1080x1080", "108kB"],
     usage: ["Social-Media"],
   },
 
@@ -76,8 +76,40 @@ export const assets = [
     type: ["image"],
     tags: ["social-media", "advertisement"],
     image:
-      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/app-ad1.jpg?token=GHSAT0AAAAAACIYBR2NIWKOGJ7KOAY57A7QZJGSUZA",
-    details: ["1080x1080", "82.4kB"],
+      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/app-ad1.jpg",
+    details: ["1080x1080", "244kB"],
     usage: ["Social-Media"],
+  },
+  {
+    id: 8,
+    name: "No Meat Banner",
+    type: ["image"],
+    tags: ["banner", "advertisement"],
+    image:
+      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/download.png",
+    details: ["2000x400", "1.22 MB"],
+    usage: ["Website"],
+  },
+
+  {
+    id: 9,
+    name: "Footlong",
+    type: ["image"],
+    tags: ["banner"],
+    image:
+      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/footlong.png",
+    details: ["1067x643", "637kB"],
+    usage: ["Website"],
+  },
+
+  {
+    id: 10,
+    name: "Logo",
+    type: ["image"],
+    tags: ["logo"],
+    image:
+      "https://raw.githubusercontent.com/ElsaJ88/DigitalAssetManagement/main/src/assets/logo2.png",
+    details: ["5000x1437", "100kB"],
+    usage: ["Website"],
   },
 ];
