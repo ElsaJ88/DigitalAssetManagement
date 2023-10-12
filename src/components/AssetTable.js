@@ -1,4 +1,4 @@
-import { FaTags } from "react-icons/fa";
+import { AiFillTags } from "react-icons/ai";
 import { MdFormatSize, MdDownloading } from "react-icons/md";
 import "../styles/assettable.css";
 
@@ -34,7 +34,7 @@ export const AssetTable = ({ asset }) => {
         </tr>
         <tr className="table-row-1">
           <td className="table-col-1">
-            <FaTags /> Tags:
+            <AiFillTags /> Tags:
           </td>
           <td className="table-col-2">
             {asset.tags.map((tag) => (

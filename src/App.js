@@ -1,16 +1,24 @@
 import "./styles/App.css";
 
-import { assets } from "./assets-database";
-
+// import { assets } from "./assets-database";
 import { Header } from "./components/Header";
 import { Assets } from "./components/Assets";
 import { Searchbar } from "./components/Searchbar";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Tags } from "./components/Tags";
 
 function App() {
   const [searchFieldInput, setSearchFieldInput] = useState("");
   const [selectedTag, setSelectedTag] = useState(0);
+  const [assets, setAssets] = useState([]);
+
+  useEffect(() => {
+    fetch(
+      "https://my-json-server.typicode.com/ElsaJ88/DigitalAssetManagement/assets"
+    )
+      .then((response) => response.json())
+      .then((data) => setAssets(data));
+  }, []);
 
   const searchedAssets = assets.filter((asset) => {
     return asset.name

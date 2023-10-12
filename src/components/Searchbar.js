@@ -1,4 +1,4 @@
-import { FaSearch } from "react-icons/fa";
+import { AiOutlineSearch } from "react-icons/ai";
 import "../styles/searchbar.css";
 
 export const Searchbar = ({ setSearchFieldInput }) => {
@@ -15,7 +15,7 @@ export const Searchbar = ({ setSearchFieldInput }) => {
       />
 
       <button type="search" className="search-button">
-        <FaSearch />
+        <AiOutlineSearch />
       </button>
     </div>
   );

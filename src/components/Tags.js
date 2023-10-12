@@ -1,10 +1,20 @@
-import { useState } from "react";
-import { tags } from "../assets-database";
+import { useState, useEffect } from "react";
+
 import "../styles/tags.css";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 
 export const Tags = ({ selectedTag, setSelectedTag }) => {
   const [showTags, setShowTags] = useState(false);
+
+  const [tags, setTags] = useState([]);
+
+  useEffect(() => {
+    fetch(
+      "https://my-json-server.typicode.com/ElsaJ88/DigitalAssetManagement/asset-tags"
+    )
+      .then((response) => response.json())
+      .then((data) => setTags(data));
+  }, []);
 
   const handleChange = () => {
     showTags ? setShowTags(false) : setShowTags(true);
