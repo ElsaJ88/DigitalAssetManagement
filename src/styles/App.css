@@ -21,6 +21,22 @@ body {
   flex-direction: column;
 }
 
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.logo-container .logo {
+  width: auto;
+  height: 40px;
+  padding: 5px;
+}
+.logo-container .rgn {
+  width: auto;
+  height: 40px;
+  padding: 10px;
+}
+
 .header-text {
   font-family: "Rubik Mono One", sans-serif;
   margin: 5px 0;
@@ -35,19 +51,7 @@ body {
   color: #ffcb0a;
 }
 
-.logo {
-  width: 200px;
-}
-
-.rgn {
-  width: auto;
-  height: 40px;
-  position: fixed;
-  left: 0;
-  top: 0;
-}
-
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
   .header-text {
     display: flex;
     align-content: center;

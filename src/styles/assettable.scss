@@ -1,8 +1,5 @@
 @import "variables";
 
-// .asset-details-table {
-//   font-size: 0.7rem;
-// }
 .table-col-1 {
   font-size: 0.7rem;
   width: 50%;
@@ -10,6 +7,8 @@
 
 .table-col-2 {
   font-size: 0.6rem;
+  width: 50%;
+  overflow: hidden;
 }
 
 .table-row-1 {
