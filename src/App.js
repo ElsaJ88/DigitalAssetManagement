@@ -13,11 +13,14 @@ function App() {
   const [assets, setAssets] = useState([]);
 
   useEffect(() => {
-    fetch(
-      "https://my-json-server.typicode.com/ElsaJ88/DigitalAssetManagement/assets"
-    )
-      .then((response) => response.json())
-      .then((data) => setAssets(data));
+    const fetchAssets = async () => {
+      await fetch(
+        "https://my-json-server.typicode.com/ElsaJ88/DigitalAssetManagement/assets"
+      )
+        .then((response) => response.json())
+        .then((data) => setAssets(data));
+    };
+    fetchAssets();
   }, []);
 
   const searchedAssets = assets.filter((asset) => {

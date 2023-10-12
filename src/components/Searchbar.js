@@ -11,10 +11,10 @@ export const Searchbar = ({ setSearchFieldInput }) => {
         type="text"
         className="search-input"
         placeholder="Search assets..."
-        onClick={handleChange}
+        onChange={handleChange}
       />
 
-      <button type="search" className="search-button">
+      <button type="submit" className="search-button">
         <AiOutlineSearch />
       </button>
     </div>
