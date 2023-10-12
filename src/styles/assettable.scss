@@ -1,0 +1,24 @@
+@import "variables";
+
+// .asset-details-table {
+//   font-size: 0.7rem;
+// }
+.table-col-1 {
+  font-size: 0.7rem;
+  width: 50%;
+}
+
+.table-col-2 {
+  font-size: 0.6rem;
+}
+
+.table-row-1 {
+  background-color: $background-color1;
+}
+
+.table-row-2 {
+  background-color: $background-color2;
+}
+td {
+  padding: 3px;
+}

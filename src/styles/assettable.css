@@ -1,0 +1,20 @@
+.table-col-1 {
+  font-size: 0.7rem;
+  width: 50%;
+}
+
+.table-col-2 {
+  font-size: 0.6rem;
+}
+
+.table-row-1 {
+  background-color: #cbd5e0;
+}
+
+.table-row-2 {
+  background-color: #edf2f7;
+}
+
+td {
+  padding: 3px;
+}/*# sourceMappingURL=assettable.css.map */

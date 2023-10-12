@@ -1,16 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-body {
-  background: #f2f2f2;
-  font-family: "Open Sans", sans-serif;
-}
-
-.search {
+.search-container {
   display: flex;
   width: 90%;
   margin: 0 5%;
 }
-
-.searchTerm {
+.search-container .search-input {
   width: 100%;
   border: 3px solid;
   border-right: none;
@@ -20,12 +13,10 @@ body {
   outline: none;
   color: #009743;
 }
-
-.searchTerm:focus {
+.search-container .search-input:focus {
   color: #ffcb0a;
 }
-
-.searchButton {
+.search-container .search-button {
   width: 40px;
   height: 35.5px;
   border: 1px solid #009743;
@@ -38,7 +29,7 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-  .search {
+  .search-container {
     width: 70%;
     margin: 0 15%;
   }

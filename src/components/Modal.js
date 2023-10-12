@@ -1,5 +1,5 @@
 import "../styles/modal.css";
-import { AiOutlineClose } from "react-icons/ai";
+import { AiFillCloseCircle } from "react-icons/ai";
 
 export const Modal = ({ asset, onClick }) => {
   return (
@@ -7,7 +7,7 @@ export const Modal = ({ asset, onClick }) => {
       <div className="modal-overlay" />
       <div className="modal-container">
         <div className="close-button" onClick={() => onClick(false)}>
-          <AiOutlineClose /> Close
+          <AiFillCloseCircle />
         </div>
         <img src={asset.image} alt={asset.name} />
       </div>

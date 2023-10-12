@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import "variables";
+
 .html {
   font-size: 16px;
 }
-
+body {
+  background: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+}
 .App {
   text-align: center;
 }
@@ -14,21 +19,20 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* font-size: calc(10px + 2vmin); */
 }
 
 .header-text {
   font-family: "Rubik Mono One", sans-serif;
-  font-size: 1.5rem;
+  margin: 5px 0;
+  padding: 5px 0;
+  font-size: 3rem;
   font-weight: 200;
-}
-
-.subway-green {
-  color: $primary-color1;
-}
-
-.subway-yellow {
-  color: $primary-color2;
+  .color1 {
+    color: $primary-color1;
+  }
+  .color2 {
+    color: $primary-color2;
+  }
 }
 
 @media screen and (min-width: 600px) {
