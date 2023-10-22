@@ -1,8 +1,20 @@
+import { useState, useEffect } from "react";
 import { AiFillTags } from "react-icons/ai";
 import { MdFormatSize, MdDownloading } from "react-icons/md";
 import "../styles/assettable.css";
 
 export const AssetTable = ({ asset }) => {
+  const [tags, setTags] = useState([]);
+
+  useEffect(() => {
+    fetch(
+      "https://my-json-server.typicode.com/ElsaJ88/DigitalAssetManagement/asset-tags"
+    )
+      .then((response) => response.json())
+      .then((data) => setTags(data));
+  }, []);
+
+  console.log(tags);
   return (
     <table clasName="asset-details-table">
       <thead>
@@ -17,11 +29,10 @@ export const AssetTable = ({ asset }) => {
           </td>
           <td className="table-col-2">
             {asset.details.map((detail) => (
-              <span>{detail} </span>
+              <span key={asset.id}>{detail} </span>
             ))}
           </td>
         </tr>
-
         <tr className="table-row-2">
           <td className="table-col-1">
             <MdDownloading /> Usage:
@@ -37,9 +48,15 @@ export const AssetTable = ({ asset }) => {
             <AiFillTags /> Tags:
           </td>
           <td className="table-col-2">
-            {asset.tags.map((tag) => (
-              <span className="tag">{tag}</span>
-            ))}
+            {asset.tags.map((tag) => {
+              const tagName = tags.find((id) => id.id === tag);
+              console.log(tagName);
+              return (
+                <span className="tag" key={asset.id}>
+                  {tagName.tag}
+                </span>
+              );
+            })}
           </td>
         </tr>
       </tbody>
