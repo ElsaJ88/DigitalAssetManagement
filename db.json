@@ -1,9 +1,9 @@
 {
   "asset-tags": [
-    { "id": 1, "tag": "logo" },
-    { "id": 2, "tag": "social-media" },
-    { "id": 3, "tag": "banner" },
-    { "id": 4, "tag": "advertisement" }
+    { "id": 1, "name": "logo" },
+    { "id": 2, "name": "social-media" },
+    { "id": 3, "name": "banner" },
+    { "id": 4, "name": "advertisement" }
   ],
 
   "assets": [
