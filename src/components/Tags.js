@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-
 import "../styles/tags.css";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 
@@ -47,9 +46,9 @@ export const Tags = ({ selectedTag, setSelectedTag }) => {
         {tags.map((tag) => {
           return (
             <div
-              className={tagClassName(tag.tag)}
+              className={tagClassName(tag.id)}
               key={tag.id}
-              onClick={() => setSelectedTag(tag.tag)}
+              onClick={() => setSelectedTag(tag.id)}
             >
               {tag.tag}
             </div>

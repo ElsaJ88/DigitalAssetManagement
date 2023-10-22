@@ -1,6 +1,4 @@
 import "./styles/App.css";
-
-// import { assets } from "./assets-database";
 import { Header } from "./components/Header";
 import { Assets } from "./components/Assets";
 import { Searchbar } from "./components/Searchbar";
@@ -24,9 +22,7 @@ function App() {
   }, []);
 
   const searchedAssets = assets.filter((asset) => {
-    return asset.name
-      .toLocaleLowerCase()
-      .includes(searchFieldInput.toLowerCase());
+    return asset.name.toLowerCase().includes(searchFieldInput.toLowerCase());
   });
 
   const filteredAssets = searchedAssets.filter((asset) => {
@@ -43,7 +39,11 @@ function App() {
       <Searchbar setSearchFieldInput={setSearchFieldInput} />
       <Tags selectedTag={selectedTag} setSelectedTag={setSelectedTag} />
       {filteredAssets.length === 0 ? (
-        <div>Your search did not return any results.</div>
+        searchFieldInput === "" ? (
+          <div>Loading assets...</div>
+        ) : (
+          <div>Your search did not return any results.</div>
+        )
       ) : (
         <Assets assets={filteredAssets} />
       )}
