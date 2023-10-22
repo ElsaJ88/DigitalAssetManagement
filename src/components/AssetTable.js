@@ -48,15 +48,15 @@ export const AssetTable = ({ asset }) => {
             <AiFillTags /> Tags:
           </td>
           <td className="table-col-2">
-            {asset.tags.map((tag) => {
-              const tagName = tags.find((id) => id.id === tag);
-              console.log(tagName);
-              return (
-                <span className="tag" key={asset.id}>
-                  {tagName.tag}
-                </span>
-              );
-            })}
+            {tags.length === 0 ? (
+              <span>Loading tags..</span>
+            ) : (
+              asset.tags.map((tag) => {
+                const tagName = tags.find((id) => id.id === tag);
+                console.log(tagName);
+                return <span className="tag">{tagName.name}</span>;
+              })
+            )}
           </td>
         </tr>
       </tbody>

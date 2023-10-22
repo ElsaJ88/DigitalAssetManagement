@@ -50,7 +50,7 @@ export const Tags = ({ selectedTag, setSelectedTag }) => {
               key={tag.id}
               onClick={() => setSelectedTag(tag.id)}
             >
-              {tag.tag}
+              {tag.name}
             </div>
           );
         })}
